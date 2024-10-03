@@ -1,0 +1,10 @@
+namespace codefirstapproach.models
+{
+    public class Faculty
+    {
+        public int FacultyId {get; set;}
+        public string   FacultyName {get; set;}
+        public string? HodName {get; set;}
+        public List<Student>? FacultyStudents {get; set;}
+    }
+}
